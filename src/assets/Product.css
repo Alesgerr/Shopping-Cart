@@ -1,0 +1,108 @@
+@media only screen and (max-width: 1300px) {
+  .category-filter {
+    display: none;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .category-filter {
+    display: none;
+  }
+  
+}
+@media only screen and (max-width: 550px) {
+  .card a .price button {
+    padding: 15px 10px;
+  }
+}
+@media only screen and (min-width: 990px) {
+  #main .main-row {
+    margin-right: 0;
+  }
+}
+#main .home {
+  background-color: white;
+}
+
+#main .card {
+  gap: 1rem;
+  padding: 1rem;
+  border: none;
+}
+
+#main .card .card-img {
+  height: 40vh;
+  padding: 1rem;
+}
+#main .card .card-body .card-title {
+  height: 10vh;
+}
+/* #main .card .card-img:hover {
+  transform: scaleX(1.1);
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+} */
+#main .col-lg-3 button {
+  background: transparent;
+  color: black;
+  border: none;
+  outline: none;
+}
+#main .col-lg-3 button:hover{
+  outline: none;
+}
+#main .col-lg-3 button:focus {
+  outline: none;
+}
+#main .card .card-img img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.card-body {
+  padding: 0;
+}
+#main .card a {
+  color: #000000;
+}
+#main .card .card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main .card .card-btn button {
+  background-color: red;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+#main .card .card-info span {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+}
+#main .card .card-info span svg {
+  font-size: 23px;
+  color: #000000;
+  font-weight: 700;
+}
+#main .card .card-rating{
+  
+}
+#main .card .card-rating .icon-style svg {
+  color: #ffb601;
+}
+#main .card .card-rating p {
+  padding: 10px 0px;
+  border: none;
+  margin-bottom: 0;
+}
+#main .card .card-rating .stock-a{
+  color: green;
+}
+#main .card .card-rating .stock-b{
+  color: red;
+}

@@ -1,0 +1,11 @@
+.profil-input{
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+}
+.profil-input:focus{
+   outline: none;
+}
+.profil-updates button {
+   margin: 10px 0px;
+}

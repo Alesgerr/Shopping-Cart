@@ -1,0 +1,144 @@
+.nav-header {
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.navbar-logo a {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* .navbar-menu.mobile {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+} */
+
+.navbar-item {
+  margin: 5px 10px;
+  width: 100%;
+  display: flex;
+}
+nav a {
+  margin: 0;
+}
+.navbar-item a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.navbar-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-search input[type="text"] {
+  outline: none;
+  padding: 5px;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 1rem;
+  width: 190px;
+  background: #F4F5F5;
+}
+
+.navbar-search button {
+  background: #F4F5F5;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.navbar-search button svg {
+  color: black;
+  font-weight: bold;
+}
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+.navbar-toggle svg {
+  color: black;
+}
+
+.navbar-toggle-icon {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+@media (max-width: 768px) {
+  .navbar {
+    align-items: flex-start;
+    position: relative;
+    z-index: 111;
+    border-bottom: 1px solid gray;
+  }
+  .navbar-menu.mobile {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    transition: all 7s ease;
+  }
+  .navbar-search input[type="text"] {
+    outline: none;
+    padding: 5px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 1rem;
+    width: 160px;
+  }
+  .navbar-menu {
+    display: none;
+  }
+
+  .navbar-toggle {
+    display: block;
+    width: 5%;
+    display: flex;
+    height: 36px;
+    align-items: center;
+  }
+  .navbar-toggle span svg {
+    font-size: 25px;
+  }
+
+  .navbar-search {
+  }
+}
